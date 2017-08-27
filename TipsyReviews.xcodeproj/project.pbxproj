@@ -14,6 +14,8 @@
 		6EA15F341F5343DE008359FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F321F5343DE008359FF /* LaunchScreen.storyboard */; };
 		6EA15F3F1F5343DE008359FF /* TipsyReviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA15F3E1F5343DE008359FF /* TipsyReviewsTests.swift */; };
 		6EA15F4A1F5343DE008359FF /* TipsyReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA15F491F5343DE008359FF /* TipsyReviewsUITests.swift */; };
+		6EA15F581F53485A008359FF /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F571F53485A008359FF /* setting.png */; };
+		6EA15F5A1F5348A5008359FF /* setting25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F591F5348A5008359FF /* setting25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6EA15F451F5343DE008359FF /* TipsyReviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyReviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA15F491F5343DE008359FF /* TipsyReviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyReviewsUITests.swift; sourceTree = "<group>"; };
 		6EA15F4B1F5343DE008359FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA15F571F53485A008359FF /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		6EA15F591F5348A5008359FF /* setting25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting25.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		6EA15F281F5343DE008359FF /* TipsyReviews */ = {
 			isa = PBXGroup;
 			children = (
+				6EA15F591F5348A5008359FF /* setting25.png */,
+				6EA15F571F53485A008359FF /* setting.png */,
 				6EA15F291F5343DE008359FF /* AppDelegate.swift */,
 				6EA15F2B1F5343DE008359FF /* ViewController.swift */,
 				6EA15F2D1F5343DE008359FF /* Main.storyboard */,
@@ -236,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA15F341F5343DE008359FF /* LaunchScreen.storyboard in Resources */,
+				6EA15F5A1F5348A5008359FF /* setting25.png in Resources */,
+				6EA15F581F53485A008359FF /* setting.png in Resources */,
 				6EA15F311F5343DE008359FF /* Assets.xcassets in Resources */,
 				6EA15F2F1F5343DE008359FF /* Main.storyboard in Resources */,
 			);
