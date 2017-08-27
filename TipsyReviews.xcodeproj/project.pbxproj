@@ -16,6 +16,9 @@
 		6EA15F4A1F5343DE008359FF /* TipsyReviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA15F491F5343DE008359FF /* TipsyReviewsUITests.swift */; };
 		6EA15F581F53485A008359FF /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F571F53485A008359FF /* setting.png */; };
 		6EA15F5A1F5348A5008359FF /* setting25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F591F5348A5008359FF /* setting25.png */; };
+		6EA15F5C1F534D1C008359FF /* TReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA15F5B1F534D1C008359FF /* TReviewTableViewCell.swift */; };
+		6EA15F5E1F534F23008359FF /* comment 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA15F5D1F534F23008359FF /* comment 30.png */; };
+		6EA15F601F535300008359FF /* ReviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA15F5F1F535300008359FF /* ReviewCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		6EA15F4B1F5343DE008359FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EA15F571F53485A008359FF /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
 		6EA15F591F5348A5008359FF /* setting25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting25.png; sourceTree = "<group>"; };
+		6EA15F5B1F534D1C008359FF /* TReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TReviewTableViewCell.swift; sourceTree = "<group>"; };
+		6EA15F5D1F534F23008359FF /* comment 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment 30.png"; sourceTree = "<group>"; };
+		6EA15F5F1F535300008359FF /* ReviewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 		6EA15F281F5343DE008359FF /* TipsyReviews */ = {
 			isa = PBXGroup;
 			children = (
+				6EA15F5D1F534F23008359FF /* comment 30.png */,
 				6EA15F591F5348A5008359FF /* setting25.png */,
 				6EA15F571F53485A008359FF /* setting.png */,
 				6EA15F291F5343DE008359FF /* AppDelegate.swift */,
 				6EA15F2B1F5343DE008359FF /* ViewController.swift */,
+				6EA15F5B1F534D1C008359FF /* TReviewTableViewCell.swift */,
 				6EA15F2D1F5343DE008359FF /* Main.storyboard */,
+				6EA15F5F1F535300008359FF /* ReviewCollectionViewController.swift */,
 				6EA15F301F5343DE008359FF /* Assets.xcassets */,
 				6EA15F321F5343DE008359FF /* LaunchScreen.storyboard */,
 				6EA15F351F5343DE008359FF /* Info.plist */,
@@ -246,6 +255,7 @@
 				6EA15F581F53485A008359FF /* setting.png in Resources */,
 				6EA15F311F5343DE008359FF /* Assets.xcassets in Resources */,
 				6EA15F2F1F5343DE008359FF /* Main.storyboard in Resources */,
+				6EA15F5E1F534F23008359FF /* comment 30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA15F601F535300008359FF /* ReviewCollectionViewController.swift in Sources */,
 				6EA15F2C1F5343DE008359FF /* ViewController.swift in Sources */,
+				6EA15F5C1F534D1C008359FF /* TReviewTableViewCell.swift in Sources */,
 				6EA15F2A1F5343DE008359FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
